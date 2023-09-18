@@ -2,7 +2,13 @@
 - practice Clean Code Architecture
 - practice integration with AWS Simple Email Service (SES)
 
-### HOW TO RUN
+### HOW TO RUN LOCAL
+
+- Since this application uses the AWS SES SDK, you should have
+locally configured your aws_access_key_id and aws_secret_access_key.
+If you have it configured on windows it should be located in the path:
+C:\Users\<YOUR_USER>\.aws\credentials
+
 ```
 mvn spring-boot:run
 ```
